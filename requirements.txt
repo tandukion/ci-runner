@@ -7,3 +7,4 @@ memory_profiler
 numba
 networkx
 pymunk
+pyassimp==4.1.3
