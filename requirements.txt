@@ -1,0 +1,9 @@
+transitions
+pygraphviz
+scipy
+rospy-message-converter
+pandas
+memory_profiler
+numba
+networkx
+pymunk
