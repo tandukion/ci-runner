@@ -1,0 +1,12 @@
+python-rosinstall
+python-rosinstall-generator
+python-wstool
+build-essential
+python-catkin-tools
+python-catkin-lint
+python-dev
+python-tk
+graphviz
+libgraphviz-dev
+pkg-config
+python-pip
