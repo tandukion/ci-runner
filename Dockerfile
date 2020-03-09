@@ -14,6 +14,7 @@ RUN cat packages.txt | xargs apt-get -qq install -y
 
 # Installing ROS packages dependencies from "rospack.txt"
 COPY rospack.txt .
+RUN apt-get -qq update -y
 RUN while read PACKAGE; do apt-get -qq install -y ros-${ROS_DISTRO}-$PACKAGE; done < rospack.txt
 
 # Installing python library dependencies from "requirements.txt"

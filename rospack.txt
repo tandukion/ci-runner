@@ -1,3 +1,4 @@
+moveit
 industrial-core
 rosbridge-server
 tf2-web-republisher
